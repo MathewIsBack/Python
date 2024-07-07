@@ -53,11 +53,25 @@
 
 # print(food[1][2])
 
-utensils = {"fork","spoon","knife"}
+# utensils = {"fork","spoon","knife"}
 
-for x in utensils:
-    print(x)
+# for x in utensils:
+#     print(x)
 
+# dictionary 
+
+capitals = {'USA': 'Washington DC',
+            'India': 'New Dehli',
+            'China':'Beijing',
+            'Russia': 'Moscow'}
+
+# print(capitals.get('Germany'))
+print(capitals.keys())
+print(capitals.values())
+print(capitals.items())
+
+for key,value in capitals.items():
+    print(key, value)
 
 
 
